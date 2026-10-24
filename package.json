@@ -1,16 +1,20 @@
 {
-  "name": "dsh-recent-sessions",
-  "version": "0.1.2",
+  "name": "@whybebabo/dsh-recent-sessions",
+  "version": "0.1.4",
   "description": "Recent sessions across every workspace in one panel — plus a place to jot a thought now and have it come back when you reopen that conversation.",
   "type": "module",
   "main": "lib/index.js",
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/huangxp12/dsh-recent-sessions.git"
+    "url": "git+https://github.com/whybebabo/dsh-recent-sessions.git"
   },
-  "homepage": "https://github.com/huangxp12/dsh-recent-sessions#readme",
+  "homepage": "https://github.com/whybebabo/dsh-recent-sessions#readme",
   "bugs": {
-    "url": "https://github.com/huangxp12/dsh-recent-sessions/issues"
+    "url": "https://github.com/whybebabo/dsh-recent-sessions/issues"
   },
   "exports": {
     ".": {
@@ -28,7 +32,9 @@
     "README.md",
     "README.en.md",
     "CHANGELOG.md",
-    "LICENSE"
+    "LICENSE",
+    "assets/screenshot-1.jpg",
+    "screenshots.json"
   ],
   "dsh": {
     "manifestVersion": 1,
@@ -75,5 +81,8 @@
     "notes",
     "productivity"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT"
 }
