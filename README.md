@@ -2,7 +2,7 @@
 
 **把你在所有工作目录里用过的会话，拉平成一块跨目录的列表——外加一个"先记下来，回头它会自己回来找你"的地方。**
 
-这是 [DSH（DeepSeek Harness）](https://harness.deepseek.com) 的客户端插件。本仓库是 [huangxp12/dsh-recent-sessions](https://github.com/huangxp12/dsh-recent-sessions) 的 fork（[whybebabo/dsh-recent-sessions](https://github.com/whybebabo/dsh-recent-sessions)）：界面按 DSH 原生样式重做，并移除了右下角悬浮胶囊和「在独立窗口打开」。English: [README.en.md](README.en.md)
+这是 [DSH（DeepSeek Harness）](https://harness.deepseek.com) 的客户端插件。本仓库是 [huangxp12/dsh-recent-sessions](https://github.com/huangxp12/dsh-recent-sessions) 的 fork（[whybebabo/dsh-recent-sessions](https://github.com/whybebabo/dsh-recent-sessions)）：界面按 DSH 原生样式重做，并移除了右下角悬浮胶囊和「在独立窗口打开」。两者注册同一个 `recent-sessions` 面板 id（`main` slot key 与 `sidebar.panellist` 的 id 都是它），**不要与原版同时安装**。English: [README.en.md](README.en.md)
 
 ![最近会话面板：一张跨所有工作目录的扁平会话列表，带目录 chip、最后一句提问预览和时间分组](assets/screenshot-1.jpg)
 
