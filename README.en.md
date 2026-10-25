@@ -2,7 +2,7 @@
 
 **Every session you have been working in, across every workspace, in one panel — plus a place to jot down a thought and have it come back to you when you reopen that conversation.**
 
-A [DSH (DeepSeek Harness)](https://harness.deepseek.com) client plugin. This repository is a fork of [huangxp12/dsh-recent-sessions](https://github.com/huangxp12/dsh-recent-sessions) ([whybebabo/dsh-recent-sessions](https://github.com/whybebabo/dsh-recent-sessions)) with a native-looking UI and the floating pill / "open in a separate window" entry points removed. 中文说明见 [README.md](README.md).
+A [DSH (DeepSeek Harness)](https://harness.deepseek.com) client plugin. This repository is a fork of [huangxp12/dsh-recent-sessions](https://github.com/huangxp12/dsh-recent-sessions) ([whybebabo/dsh-recent-sessions](https://github.com/whybebabo/dsh-recent-sessions)) with a native-looking UI and the floating pill / "open in a separate window" entry points removed. Both plugins register the same `recent-sessions` panel id (used as the `main` slot key and the `sidebar.panellist` id), so **do not install both**. 中文说明见 [README.md](README.md).
 
 ![The Recent sessions panel: one flat list of sessions across every workspace, with workspace chips, last-prompt previews and time grouping](assets/screenshot-1.jpg)
 
